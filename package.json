@@ -2,6 +2,12 @@
   "name": "react-setup",
   "version": "0.1.0",
   "private": true,
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'test'"
+    }
+  }
+,
   "dependencies": {
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
@@ -18,12 +24,7 @@
     "eject": "react-scripts eject"
   },
 
-    "husky": {
-      "hooks": {
-        "pre-commit": "echo 'test'"
-      }
-    }
-  ,
+
   "eslintConfig": {
     "extends": [
       "react-app"
