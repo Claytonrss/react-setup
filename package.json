@@ -4,6 +4,7 @@
   "private": true,
   "lint-staged": {
     "src/**/*.{js,ts,jsx,tsx}": [
+      "prettier --write",
       "eslint --fix",
       "git add"
     ],
