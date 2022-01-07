@@ -6,16 +6,14 @@
     "hooks": {
       "pre-commit": "echo 'test'"
     }
-  }
-,
-"lint-staged":{
-  "src/**/*.{js,ts,jsx,tsx}": [
-    "eslint --fix", "git add"
+  },
+  "lint-staged": {
+    "src/**/*.{js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "git add"
     ],
     "*.{json,md}": "prettier --write"
-
   },
-
   "dependencies": {
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
@@ -31,8 +29,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
-
   "eslintConfig": {
     "extends": [
       "react-app"
