@@ -17,6 +17,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app"
