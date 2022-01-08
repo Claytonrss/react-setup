@@ -40,10 +40,11 @@
         "unnamedComponents": "arrow-function"
       }
     ],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "import/prefer-default-export": "off",
-    "import/no-unresolved": "error",
     "prettier/prettier": "error",
-    "no-console": "off"
+    "no-console": "off",
+    "no-debugger": "off"
   },
   "settings": {
     "import/resolver": { "typescript": {} }
