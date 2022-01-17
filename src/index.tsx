@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
-import './index.css';
 import { MockServer } from './services/miragejs/MockServer';
 
 const environment = process.env.NODE_ENV;

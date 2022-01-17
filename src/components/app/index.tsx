@@ -11,7 +11,8 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <Title>{JSON.stringify(users)}</Title>
+      <Title data-cy="user-list">Lista de usuários</Title>
+      <div>{JSON.stringify(users)}</div>
     </div>
   );
 };
