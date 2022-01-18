@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { http } from '../../services/api';
-import { Title } from './styles';
+import { http } from '../../../services/api';
+import DisplayCode from '../../atoms/display-code';
+import Title from '../../atoms/title';
 
-const App: React.FC = () => {
+const Content: React.FC = () => {
   const [users, setUsers] = useState();
 
   useEffect(() => {
@@ -12,9 +13,9 @@ const App: React.FC = () => {
   return (
     <div>
       <Title data-cy="user-list">Lista de usuários</Title>
-      <div>{JSON.stringify(users)}</div>
+      <DisplayCode>{JSON.stringify(users, null, 4)}</DisplayCode>
     </div>
   );
 };
 
-export default App;
+export default Content;
