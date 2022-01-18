@@ -34,7 +34,7 @@ As seguintes ferramentas estão instaladas e configuradas no projeto:
 
 - **[Atomic design](https://bradfrost.com/blog/post/atomic-web-design/)**
 
-> Veja o arquivo [package.json](https://github.com/Claytonrss/react-setup/package.json)
+> Veja o arquivo [package.json](https://github.com/Claytonrss/react-setup/blob/main/package.json)
 
 ## 🚀 Como executar o projeto
 
