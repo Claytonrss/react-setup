@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+# React Starter Kit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Configuração inicial para um projeto utlizando ReactJS (wip 🚀)
 
-## Available Scripts
+## 💻 Sobre o projeto
 
-In the project directory, you can run:
+Setup inicial para aplicações ReactJs com foco em agilizar a inicialização de novos projetos.
 
-### `yarn start`
+## 🛠 Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+As seguintes ferramentas estão instaladas e configuradas no projeto:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **[React](https://reactjs.org/)**
 
-### `yarn test`
+- **[TypeScript](https://www.typescriptlang.org/)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[Styled component](https://styled-components.com/)**
 
-### `yarn build`
+- **[Husky](https://typicode.github.io/husky)**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **[Eslint](https://github.com/axios/axios)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **[Lint-staged](https://github.com/okonet/lint-staged)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **[Commitlint](https://commitlint.js.org)**
 
-### `yarn eject`
+- **[Prettier](https://prettier.io/)**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **[Cypress](https://www.cypress.io/)**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **[Mirage JS](https://miragejs.com/)**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **[Axios](https://github.com/axios/axios)**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **[Atomic design](https://bradfrost.com/blog/post/atomic-web-design/)**
 
-## Learn More
+> Veja o arquivo [package.json](https://github.com/Claytonrss/react-setup/package.json)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Como executar o projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+```bash
+
+# Clone este repositório
+
+$ git clone git@github.com:Claytonrss/react-setup.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+
+$ cd react-setup
+
+# Instale as dependências
+
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+## Autor
+
+<a  href="https://claytonrss.github.io/">
+
+<img  style="border-radius: 50%;"  src="https://avatars.githubusercontent.com/u/33030911?v=4"  width="100px;"  alt=""/>
+
+<br />
+
+Feito com ❤️ por <a  href="https://claytonrss.github.io/"  title="Clayton Rafael">Clayton Rafael</a> 👋🏽 Entre em contato!
+
+[![](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&link=https://wa.me/5511965280345)](https://wa.me/5511965280345) [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailtoclayton.rssouza@gmail.com)](mailto:clayton.rssouza@gmail.com) [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/clayton-rafael-62b908146/)](https://www.linkedin.com/in/clayton-rafael-62b908146/) [![Linkedin Badge](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=https://www.instagram.com/clayton.rssouza/)](https://www.instagram.com/clayton.rssouza/)
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
