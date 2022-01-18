@@ -45,7 +45,8 @@
     "import/prefer-default-export": "off",
     "prettier/prettier": "error",
     "no-console": "off",
-    "no-debugger": "off"
+    "no-debugger": "off",
+    "@typescript-eslint/no-empty-interface": "off"
   },
   "settings": {
     "import/resolver": { "typescript": {} }
