@@ -12,7 +12,7 @@ const Content: React.FC = () => {
 
   return (
     <div>
-      <Title data-cy="user-list">Lista de usuários</Title>
+      <Title dataCypress="user-list">Lista de usuários</Title>
       <DisplayCode>{JSON.stringify(users, null, 4)}</DisplayCode>
     </div>
   );
